@@ -12,7 +12,7 @@ server.use(bodyParser.urlencoded({ extended: false }));
 server.use('/api/auth', authRouter);
 
 server.get("/", (req, res) => {
-    res.json({api: "up"});
+    res.send({api: "up"});
 })
 
 
