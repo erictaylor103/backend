@@ -1,4 +1,4 @@
-## 3️⃣ Endpoints OVERVIEW
+## Endpoints OVERVIEW
 
 
 ### [Auth Route](https://bw-savor-backend.herokuapp.com)
