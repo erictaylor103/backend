@@ -13,6 +13,5 @@ function insert(user) {
 
 function findUsername(username) {
   return db('users')
-    .where({ username: username });
-    //.orWhere({ email: username });
+    .where({ username: username });    
 }
