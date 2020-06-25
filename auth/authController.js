@@ -1,6 +1,7 @@
 const bcrypt = require('bcryptjs');
 const { insert, findUsername } = require('../models/users');
 const generateToken = require('../middleware/generateToken');
+
 module.exports = {
   register,
   login
