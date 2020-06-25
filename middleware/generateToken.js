@@ -12,7 +12,7 @@ function generateToken(user) {
     
     
   const payload = {
-    id: user.user,
+    id: user.id,
     username: user.username,
     email: user.email
   };
