@@ -16,11 +16,14 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.1",
     "nodemon": "^2.0.4",
-    "sqlite3": "^4.2.0"
+    "sqlite3": "^4.2.0",
+    "supertest": "^4.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
   "scripts": {
-    "test": "cross-env DB_ENV=testing jest --watch --runInBand",
+    "test": "jest --watch --runInBand",
     "server": "nodemon index.js",
     "start": "node index.js"
   },
